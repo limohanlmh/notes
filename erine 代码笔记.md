@@ -2,6 +2,7 @@ erine 代码笔记
 
 - 方法通过配置文件json，动态载入到config或者params字典中。因此要找到调用对应关系，就从配置的json中入手。
 - fulltokenizer 位于tokenzier/tokenization_wp.py中，这个目录中每个tokenizer的类名都不同。
+- get_metrics位于BaseClassification中，要增加metrics(recall等）可以在这里面构建。
 
 text\_classification, 没有text\_b:
 
